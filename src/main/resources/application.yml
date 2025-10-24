@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: chatbot-support
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      init:
+        pull-option-strategy: never
+      chat:
+        options:
+          model: deepseek-r1:1.5b
+
